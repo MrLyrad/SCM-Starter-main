@@ -1,12 +1,38 @@
-# Starter Next/Hardhat Project
+# Project - Function Frontend - ETH + AVAX
 
-After cloning the github, you will want to do the following to get the code running on your computer.
+In this project, we are tasked to create a simple contract with 2-3 user-defined functions. The Solidity contract named `myFunctionFrontend.sol` has the necessary Solidity code that enables the displaying of the output to the frontend of the application.
 
-1. Inside the project directory, in the terminal type: npm i
-2. Open two additional terminals in your VS code
-3. In the second terminal type: npx hardhat node
-4. In the third terminal, type: npx hardhat run --network localhost scripts/deploy.js
-5. Back in the first terminal, type npm run dev to launch the front-end.
+## Description
 
-After this, the project will be running on your localhost. 
-Typically at http://localhost:3000/
+For this project, I decided to create a simple Smart Contract that lets users control a supply of tokens. The error handling comes in handy when validating the user input, ensuring that the code does not break while executing and that gas is not completely wasted.
+
+## Overview
+
+The following functions found in `myFunctionFrontend.sol` were defined as follows:
+
+*1. addTokens(uint _i)* - This function ensures that the user input is a number divisible by 5 to add from the `tokenSupply`.
+
+*2. subTokens(uint _i)* - This function ensures that the user input is a number divisible by 5 to subtract from the `tokenSupply`.
+
+*3. showTokens()* - This function shows the number of tokens stored in the `tokenSupply`.
+
+*4. numSub()* - This function shows the number of subtractions the user is still able to perform, the initialized maximum subtractions is **2**.
+
+### Running the Contract in Remix IDE.
+
+* Open [Remix IDE](https://remix.ethereum.org/).
+* Inside Remix IDE, create a new file and paste the contents of `mySmartContract.sol` or upload the file itself to the IDE.
+* Ensure that the compiler version is set to `0.8.18`.
+* Hit `Ctrl` + `S` on your keyboard to compile the smart contract.
+* Deploy the compiled contract by navigating to the sidebar of the IDE and then click `Deploy`.
+* To interact with the variables, drop down the `Deployed Contracts` menu and place your input in the respective bins.
+
+## Authors
+
+Daryl Juacalla
+[@MrLyrad](https://github.com/MrLyrad)
+
+
+## License
+
+This project is licensed under the MIT License.
