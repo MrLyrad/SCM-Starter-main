@@ -4,7 +4,7 @@ In this project, we are tasked to create a simple contract with 2-3 user-defined
 
 ## Description
 
-For this project, I decided to create a simple Smart Contract that lets users control a supply of tokens. The error handling comes in handy when validating the user input, ensuring that the code does not break while executing and that gas is not completely wasted.
+For this project, I decided to tweak and revise a simple Smart Contract from a previous project that lets users control a supply of tokens. Proper error handling functions were utilized in validating the user input, ensuring that the code does not break while executing and that gas is not completely wasted. In addition, a `.js` file allows the contract to have a frontend that lets users interact with the system.
 
 ## Overview
 
